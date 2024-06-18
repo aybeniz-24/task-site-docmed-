@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bleft {
+    width: 200px;
+    height: 55px;
+    margin: 20px auto;
+}
+
+.bright {
+    text-align: center;
+    font-size: 1em;
+}
+
+#menu li {
+    margin-top: 10px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+#xanim {
+    width: 100%;
+    margin: 100px 0;
+}
+
+#xanim2 {
+    display: none;
+}
+
+.right {
+    margin: 20px;
+}
+
+.welcome {
+    font-size: 0.8em;
+}
+
+hr {
+    width: 50px;
+    border: 2px solid skyblue;
+    margin: 2px 0 20px 0;
+}
+
+.basliq {
+    margin: 20px 20px 20px 0;
+    font-weight: 2px;
+    font: bold 2em Arial, sans-serif;
+}
+
+.text {
+    margin: 15px 15px 15px 0;
+    color: silver;
+}
+
+.list li {
+    margin: 10px 0;
+}
+
+i {
+    margin: 0 10px 0 0;
+    color: skyblue;
+}
+
+button {
+    margin: 20px 20px 20px 0;
+    padding: 10px;
+    width: 200px;
+    background: skyblue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    background: steelblue;
+}
+
+@media only screen and (min-width: 768px) {
+    #logo {
+        margin: 20px 100px;
+        display: inline-block;
+        
+    }
+
+    nav {
+        display: block;
+        width: 100%;
+    }
+
+    .bleft {
+        display: inline-block;
+        
+    }
+
+    .bright {
+        display: inline-block;
+        float: right;
+        margin-top: 25px;
+    }
+
+    #menu {
+        margin: 20px 100px 0 0;
+        display: inline-block;
+    }
+
+    #menu li {
+        margin: 10px;
+        display: inline-block;
+    }
+
+    #xanim {
+        display: none;
+    }
+
+    #xanim2 {
+        display: initial;
+        width: 600px;
+        margin: 20px 40px;
+    }
+
+    .left,
+    .right {
+        display: inline-block;
+
+    }
+
+    .left {
+
+        width: 40%;
+
+    }
+
+    .right {
+        float: right;
+        width: 50%;
+        margin-top: 10px 0;
+    }
+}
